@@ -1,0 +1,19 @@
+
+<b> Register Employee </b>
+<!-- Enter first number <input type="number" [(ngModel)]="firstnumber"/><br/>
+Enter second number <input type="number" [(ngModel)]="secondnumber"/><br/>
+<input type="submit" value="Add" (click)="add1()"/><br/>
+
+The result is {{result}}
+<hr/>
+
+Enter first number <input type="number" #first/><br/>
+Enter second number <input type="number" #second/><br/>
+<input type="submit" value="Add" (click)="add(first.value,second.value)"/><br/>
+
+The result is {{result}} -->
+<br/>
+Enter your Eid: <input type="text" [(ngModel)]="emp.Eid"/> <br/><br/>
+Enter your Name: <input type="text" [(ngModel)]="emp.Ename"/><br/><br/>
+Enter your Salary: <input type="number" [(ngModel)]="emp.Salary"/><br/><br/>
+<input type="submit" value="Save" (click)="Save()" /> <br/>
